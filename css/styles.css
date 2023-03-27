@@ -1,21 +1,69 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     width: 100%;
     height: 100vh;
-    background-image: url("../img/bg-sea.jpg");
-    background-repeat: none;
-    background-position: center;
-}
+    background-position: center; 
+    background-image: url("../img/bg-sea.jpeg");
+    
 
+}
 header {
     display: flex;
     justify-content: space-between;
+    color: white;
+    
+    padding: 20px;
     
 
 
 }
 
-header a {
-    text-decoration: none;
+.logo {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    
 }
+
+a:link {
+     text-decoration: none; }
+
+
+a:visited {
+     text-decoration: none; }
+
+
+a:hover {
+     text-decoration: underline;
+
+    }
+
+
+a:active { 
+    text-decoration: none; }
+
+
+
+.container {
+  
+  
+    margin: auto;
+    color: white;
+    padding: 20px;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    height: 100vh;
+  
+    
+   
+ 
+ 
+   
+}
+
